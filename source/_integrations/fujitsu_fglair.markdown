@@ -33,3 +33,13 @@ This integration supports the following functionalities (if the devices support 
 - [`turn on/off`](/integrations/climate#action-climateturn_on)
 - [`fan mode`](/integrations/climate#action-climateset_fan_mode)
 - [`swing mode`](/integrations/climate#action-climateset_swing_mode)
+
+## Outside temperature
+
+On units that support it, this integration will expose a temperature sensor that reports the outside temperature that the unit is reporting.
+
+## Known limitations
+
+This integration doesn't support some units that are supported by the FGlair app as well as some external integrations.
+
+If your device name (visible in `Settings > Firmware Information` in the FGlair app) starts with AC-UTY then your device is not supported by this integration.
