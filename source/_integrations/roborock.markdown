@@ -95,6 +95,8 @@ Total cleaning time - The lifetime cleaning duration of your vacuum.
 
 Total cleaning area - The lifetime cleaning area of your vacuum.
 
+Total cleaning count - The lifetime cleaning count of your vacuum.
+
 Vacuum error - The current error with your vacuum, if there is one.
 
 ### Time
@@ -196,7 +198,6 @@ We plan to make the process simpler in the future, but for now, it is a multi-st
       action: roborock.get_maps
       target:
         entity_id: vacuum.s7_roborock
-      data: {}
       ```
 
    - **Result**: You will get a response like this:

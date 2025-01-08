@@ -9,7 +9,6 @@ related:
 This section will provide guides to some common tasks and information which you will need in order to run, maintain, and edit your Home Assistant OS system. For further details on any particular subject, make sure to refer to the documentation for specific add-ons or topics listed here.
 
 {% include common-tasks/file_access.md %}
-{% include common-tasks/backups.md %}
 
 ## Updating Home Assistant
 
@@ -26,7 +25,7 @@ Updates of the {% term "Home Assistant Operating System" %} are independent of o
 
 #### Prerequisites
 
-- [Backup](/common-tasks/os/#backups) your installation.
+- [Backup](/common-tasks/general/#backups) your installation.
   - Make sure the backup is downloaded and stored outside of the system.
   - So that you can restore from that backup in case there is an issue with the system.
 
@@ -73,6 +72,8 @@ You can manually define that the previous boot slot is used. This can be useful 
     ```bash
     ha os boot-slot other
     ```
+
+Alternatively, if the Operating Systems runs on a platform that uses the GRUB bootloader, a boot menu is presented early in the boot. The alternative boot slot can be selected here, marking it active for future boots if the following boot attempt is successful.
 
 ### Updating Home Assistant Core
 

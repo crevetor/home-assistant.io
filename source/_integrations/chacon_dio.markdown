@@ -1,5 +1,5 @@
 ---
-title: Chacon Dio
+title: Chacon DiO
 description: Instructions on how to integrate your Chacon Dio devices within Home Assistant.
 ha_category:
   - Cover
@@ -47,6 +47,10 @@ The switch platform integrates Chacon Dio devices to manage switches (like the R
 
 - get the **state** of the switch (connected or not and on/off state)
 - **Turn on/off** the switch
+
+## Actions
+
+In rare cases, such as  Wi-Fi interruptions, you may need to manually update the state of your devices. You can use the `homeassistant.update_entity` action to refresh the device state manually.
 
 ## Tips
 
