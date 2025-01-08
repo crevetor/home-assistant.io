@@ -11,6 +11,7 @@ ha_codeowners:
 ha_config_flow: true
 ha_platforms:
   - climate
+  - sensor
 ha_iot_class: Cloud Polling
 ---
 
@@ -42,4 +43,4 @@ On units that support it, this integration will expose a temperature sensor that
 
 This integration doesn't support some units that are supported by the FGlair app as well as some external integrations.
 
-If your device name (visible in **Settings > Firmware Information** in the FGlair app) starts with AC-UTY then your device is not supported by this integration.
+If your device name (visible in **Settings > Firmware Information** in the FGlair app) starts with AC-UTY, then your device is not supported by this integration.
