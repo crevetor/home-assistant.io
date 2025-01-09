@@ -18,6 +18,14 @@ ha_iot_class: Cloud Polling
 The {{ page.title }} {% term integration %} provides support for Fujitsu heat pumps and air conditioners that use the FGLair app.
 To find out which app to use for your heat pump, check [the Fujitsu FGLair FAQ](https://www.fujitsu-general.com/global/support/faq/airstage-mobile/0127.html).
 
+## Supported devices
+
+This integration doesn't support some units that are supported by the FGlair app as well as some external integrations.
+
+If your device name (visible in **Settings > Firmware Information** in the FGlair app) starts with AC-UTY, then your device is not supported by this integration.
+
+If the name starts with AP-WA, AP-WB, AP-WC, AP-WD or AP-WF it should be supported.
+
 ## Prerequisites
 
 First, set up your device in the FGLair app before using this integration.
@@ -37,10 +45,5 @@ This integration supports the following functionalities (if the devices support 
 
 ## Outside temperature
 
-On units that support it, this integration will expose a temperature sensor that reports the outside temperature that the unit is reporting.
+On units that support it, this integration will expose a temperature sensor that reports the outside temperature that the unit is sensing.
 
-## Known limitations
-
-This integration doesn't support some units that are supported by the FGlair app as well as some external integrations.
-
-If your device name (visible in **Settings > Firmware Information** in the FGlair app) starts with AC-UTY, then your device is not supported by this integration.
