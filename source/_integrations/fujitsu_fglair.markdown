@@ -20,11 +20,11 @@ To find out which app to use for your heat pump, check [the Fujitsu FGLair FAQ](
 
 ## Supported devices
 
-This integration doesn't support some units that are supported by the FGlair app as well as some external integrations.
+This integration supports a subset of devices that work with the FGlair app and other external integrations.
 
 If your device name (visible in **Settings > Firmware Information** in the FGlair app) starts with AC-UTY, then your device is not supported by this integration.
 
-If the name starts with AP-WA, AP-WB, AP-WC, AP-WD or AP-WF it should be supported.
+Devices with names starting with AP-WA, AP-WB, AP-WC, AP-WD, or AP-WF should be supported.
 
 ## Prerequisites
 
